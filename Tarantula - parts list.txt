@@ -1,0 +1,182 @@
+-> ADDON, REPLACEMENT & PART LIST <-
+
+As I said I will write down a a list like I did in past at Sunhokey group with some ideas what to buy (addons, replacements & tools) as new users often ask what they should order as replacement or spare parts with the printer.
+
+-----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
+
+PRINTER (direct from TEVO)
+
+
+Full kit (FLEX filament extruder added): 
+
+http://s.click.aliexpress.com/e/juZr7iIM3
+
+....................
+
+Large Bed + Sensor: 
+
+http://s.click.aliexpress.com/e/rznuZ37ai 
+
+....................
+
+Normal: 
+
+http://s.click.aliexpress.com/e/neY7yRf6e
+
+
+
+-----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
+
+ADDON & REPLACEMENT LIST
+
+
+Heatbed Cotton Insolation
+
+http://s.click.aliexpress.com/e/VjQZnmiQr
+
+-----------------------------------------------
+
+Sharper Nozzles (10 pcs. - different sizes orderable)
+
+http://s.click.aliexpress.com/e/ZvrfmQZbQ
+
+-----------------------------------------------
+
+18 gauge wire
+
+http://s.click.aliexpress.com/e/uFeuN7Yb6
+
+....................
+
+22 gauge wire
+
+http://s.click.aliexpress.com/e/AMjqZj6eu
+
+-----------------------------------------------
+
+Motor coupler
+
+http://s.click.aliexpress.com/e/eiyzJ2R7i
+
+-----------------------------------------------
+
+MK8 gear
+
+http://s.click.aliexpress.com/e/7mM3zNRrv
+
+-----------------------------------------------
+
+Rocker Switch (ON/OFF)
+
+http://s.click.aliexpress.com/e/7iUJeM7Y3
+
+-----------------------------------------------
+
+PTFE Tube (1.75mm)
+
+http://s.click.aliexpress.com/e/nqN7mMZnu
+
+-----------------------------------------------
+
+50mm radial fan
+
+http://s.click.aliexpress.com/e/qjUrZ3vbY
+
+-----------------------------------------------
+
+Standoffs set (M3 Nylon)
+
+http://s.click.aliexpress.com/e/V3jQz3rrb
+
+-----------------------------------------------
+
+LED stripe 12V
+
+http://s.click.aliexpress.com/e/7aAqf6aiI
+
+-----------------------------------------------
+
+E3D clone incl. Volcano
+
+http://s.click.aliexpress.com/e/NJq33f2ZR
+
+-----------------------------------------------
+
+PSU 350W 12V (stronger with fan)
+
+http://s.click.aliexpress.com/e/E2zZRVj6I
+
+-----------------------------------------------
+
+IR thermometer
+
+http://s.click.aliexpress.com/e/meM3VvVZb
+
+-----------------------------------------------
+
+Borosilicate glass for large heat bed
+
+http://s.click.aliexpress.com/e/NNFUnmQnM
+
+....................
+
+Borosilicate glass for for normal heat bed
+
+http://s.click.aliexpress.com/e/aqn2VByj2
+
+-----------------------------------------------
+
+Belt tightener spring
+
+http://s.click.aliexpress.com/e/ieqFIIiiI
+
+-----------------------------------------------
+
+GT2 belt
+
+http://s.click.aliexpress.com/e/vRjMBe2bM
+
+-----------------------------------------------
+
+8mm sensor (when using glass)
+
+http://s.click.aliexpress.com/e/maQ37EmA2
+
+-----------------------------------------------
+
+40mm fan
+
+http://s.click.aliexpress.com/e/3jIQRfY7A
+
+-----------------------------------------------
+
+Foldback Bulldog Clip (Clips for glass heatbeds)
+
+http://s.click.aliexpress.com/e/yRbaqBEeA
+
+-----------------------------------------------
+
+RAMPS LCD12864 (bigger screen)
+
+http://s.click.aliexpress.com/e/FyrJ6Ujie
+
+-----------------------------------------------
+
+RAMPS TFT28 V1.1 (touch screens)
+
+http://s.click.aliexpress.com/e/rjeMvVzZN
+
+-----------------------------------------------
+
+Some Acetone (ABS) & Dichloromethane (PLA) 
+
+For cleaning, juice and can be used for smoothing the printed surfaces.
+
+-----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
+
+
+
+No guarantee but think I have all stuff collected right - most things I ordered myself at this sellers. Few things missing will be added asap.

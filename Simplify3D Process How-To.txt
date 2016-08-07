@@ -1,0 +1,27 @@
+Simplify3D Process How-To
+
+1) Load STL file
+2) Add/Select Process (select the process your trying to modify ex: Process1, Process2, etc.)
+3) Click Edit Process Settings (or Double Click Process1)
+5) Change Process Name: Process1 (if you want to)
+6) Select Profile
+7) Select Infill Percentage and Raft
+8) Select Layer Tab
+9) Set Top Solid Layer: 0
+10) Set Bottom Solid Layers: 0
+11) Set Outline/Perimeter Shells: 1 (or whatever you want)
+12) Select Additions Tab
+13) Select Skirt/Brim (used to prime the extruder)
+14) Select Use Raft (To help the print to bond to plate)
+15) Select Temperature Tab
+16) Select the Extruder 1 Temperature
+17) Change the Per-Layer Temperature Setpoints (to whatever temp your trying to set)
+18) Select Advance Tab
+19) Check Layer Modification Start printing at height: 0 (or whatever layer your trying to start at ex: 0, 10, 20, 30, 40, etc.)
+20) Check Layer Modification Stop printing at height: 20 (or whatever layer your trying to start at ex: 10, 20, 30, 40, 50, etc.)
+21) Click OK
+22) Repeat Steps 2 to 21 for each Layer Range you want to print 
+
+*** Note ***
+This process can be used for other things like changing colors or whatever you want. Processes are very powerfull tool to use.
+

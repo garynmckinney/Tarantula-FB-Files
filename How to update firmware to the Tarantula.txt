@@ -1,0 +1,11 @@
+All the steps you need to upload (new) firmware to the Tarantula:
+
+1) Download "tarantula-marlin.community-v.0.1d.zip" from the 'files' section on this facebook group. (Maybe already a newer version available when you read this, please check)
+2) Install the 'Arduino' software (download for free: https://www.arduino.cc/en/Main/Software)
+3) Unzip the firmware zip file. Double click the 'marlin.ino' file. This will open the Arduino software automatically with this firmware loaded.
+4) Choose correct settings in the Arduino software. Go to:
+Tools -> Board -> Arduino Mega ADK
+Tools -> Serial port -> (choose your COM port, mostly COM3)
+5) Change firmware settings (if needed) in the 'configuration.h' tab
+6) Click the 'upload' button (left upper corner (->). Make sure Tarantula is connected through USB and ON.
+7) Wait till succesfully uploaded.

@@ -1,0 +1,50 @@
+; Nozzle Wipe Pad
+;
+; Usage: Copy this into your Start Script area in your slicer
+;
+; Preparation: You need to get a piece of 23mm wide blue tape 
+; and fold it to make walls that will stick up so the nozzle  
+; can wipe across. The tape will be placed on the left edge of  
+; the bed 8mm from the front of the bed going left to right.
+;
+;
+; Wipe Pad:  ____|____|____|____ 8mm tall for each wall (requires 16mm tape)
+;            10mm 10mm 10mm 10mm
+;
+;
+; The process of making the wiping pad is:
+;
+;      /\      /\      /\
+; ____/  \____/  \____/  \____  squeeze the front and back to make a wall
+;
+; Each wall will use 16mm of tape (8mm front and 8mm back) 
+; the front side will be stuck to the back side
+
+
+; 1st wipe pass
+G1 X0 Y10 F3000 ; Move nozzle to X0, Y10 @ 50mm/s
+G1 X35 Y10 F3000 ; Move nozzle to X35, Y10 @ 50mm/s
+
+; 2nd wipe pass
+G1 X35 Y12 F3000 ; Move nozzle to X35, Y12 @ 50mm/s
+G1 X0 Y12 F3000 ; Move nozzle to X0, Y12 @ 50mm/s
+
+; 3rd wipe pass
+G1 X0 Y14 F3000 ; Move nozzle to X0, Y14 @ 50mm/s
+G1 X35 Y14 F3000 ; Move nozzle to X35, Y14 @ 50mm/s
+
+; 4th wipe pass
+G1 X35 Y16 F3000 ; Move nozzle to X35, Y16 @ 50mm/s
+G1 X0 Y16 F3000 ; Move nozzle to X0, Y16 @ 50mm/s
+
+; 5th wipe pass
+G1 X0 Y18 F3000 ; Move nozzle to X0, Y18 @ 50mm/s
+G1 X35 Y18 F3000 ; Move nozzle to X35, Y18 @ 50mm/s
+
+; 6th wipe pass
+G1 X35 Y20 F3000 ; Move nozzle to X35, Y20 @ 50mm/s
+G1 X0 Y20 F3000 ; Move nozzle to X0, Y20 @ 50mm/s
+
+; 7th wipe pass
+G1 X0 Y22 F3000 ; Move nozzle to X0, Y22 @ 50mm/s
+G1 X35 Y22 F3000 ; Move nozzle to X35, Y22 @ 50mm/s

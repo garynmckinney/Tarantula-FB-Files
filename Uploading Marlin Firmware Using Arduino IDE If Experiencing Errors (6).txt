@@ -1,0 +1,34 @@
+The Tarantula uses an Atmel microcontroller that's programmable through the Arduino IDE available from the official Arduino website (http://Arduino.cc). The IDE is pretty straightforward but some directions provided by other users of this forum seem to not compile correctly. This is because the Arduino IDE is being always updated to provide an easy way to share files in the form of "Sketches" which are sometimes confused with libraries. A common error is loading up a Sketch but in the form of a library and having the IDE throw compilation errors. The IDE is letting it be known that it is pointing back at itself. The following directions should alleviate this:
+
+1) First of all, make sure to get the correct firmware package. Be aware that the basic firmware package from the author's website is not configured by default for the Tarantula 3D Printer. For that reason, download the latest community build from this forum. Extract the files in the firmware package to a folder on your computer named "Marlin" (erase unecessary words or characters as the Arduino IDE will most likey not like that).
+
+2) Make any necessary changes to the "Configuration.h" file found within the firmware package that you downloaded from this forum. For example, for a larger bed, make the changes recommended in the larger bed text file found within this forum.
+
+3) Download the Arduino IDE through the official Arduino website (Arduino.cc). It's known that certain "Sketches" don't work in specific versions of the Arduino IDE so try another version if at the end (step 8) you have no success.
+
+4) Copy the "Marlin" folder into the libraries folder of the Arduino IDE "~../Arduino[versionNumber]\Libraries\".
+
+5) Open up the Arduino IDE and in the "Sketch" menu select "Add File". Go to the "Marlin" folder that was moved to the Arduino IDE libraries folder and open "Marlin.ino".
+
+6) The "Marlin.ino" file should be opened in the Arduino IDE by now. Go to the "Tools" menu and select for "Board": "Arduino Mega 2560 or Mega ADK".
+
+7) Connect the Tarantula (awesome name BTW) to the computer with the supplied USB cable. Go to the "Tools" menu of the Arduino IDE and there should now be listed under "Serial Port" a port (i.e. COM8, etc.). Choose the right one if there is more than one. If you are unsure of which port the Tarantula is, disconnect and connect again the USB cable while noticing which port shows before and after.
+
+8) At this point, go ahead and upload the sketch by clicking on the "->" (right-arrow) icon of the Arduino IDE or by selecting "Upload" under the "File" menu. There will be a message displaying the progress of the upload and if successful "Done uploading" will be shown as well as the sketch size. If the upload is unsuccessful, there will be several compiling errors (programming problems) or hardware errors (communication problems) messages being thrown.
+
+NOTE: Every time a library ("Configuration.h") is changed/updated, the Arduino IDE requires a restart.
+
+RUNDOWN:
+
+i. Have Arduino IDE (be weary of the version number if at the end you are still unsuccessful)
+ii. Decompress Marlin (the folder) into the libraries folder of the Arduino IDE.
+iii. Make necessary changes specific to your Tarantula in the Configurations.h file (i.e. dual extruders, larger bed, etc.). At one point or another before the uploading (or after), make sure any necessary changes are set.
+iv. Add the Marlin.ino file through Sketch>Add File within the Arduino IDE.
+v. Select the correct board (Mega ADK) and the correct port under Tools.
+vi. Upload.
+
+By now, theoretically, your Tarantula should be ready to go. If errors such as inverted motor controls occur, then make sure to reset not only the control board but the LCD panel as well by pushing the reset buttons. Afterwards, if errors persist, be aware that that is due to the newer programming that was just uploaded. Which can be dealt with by further modifying the programming of, for example, the "Configuration.h" file or by simply re-uploading the manufacturer supplied firmware (available through the manufacturer's website).
+
+WHAT WE CORRECTED:
+
+Opening Marlin.ino directly from a folder within the libraries directory of the Arduino IDE resulted in the IDE not being able to recognize the library files (that end with *.h). Loading up the Marlin.ino seperately solved this and as a plus does not crowd the IDE with unnecessary opened files.
